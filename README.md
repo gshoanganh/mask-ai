@@ -4,7 +4,7 @@
 📚 This guide explains how to train your own custom dataset with YOLOv5 🚀<br/>
 🍀 Author: <b>Gs Hoang Anh</b> (<a href="https://www.youtube.com/c/GsHoangAnh">YouTube channel</a>.)
 <br/>
-<img src="https://github.com/gshoanganh/mask-ai/photos/detect-page.jpg?raw=true"> 
+<img width="500" src="https://github.com/gshoanganh/mask-ai/blob/main/photos/detect-page.jpg?raw=true"> 
 <br/>
 
 ## Before You Start
@@ -15,7 +15,7 @@
 + data/(images,labels): Include the image and the folder used to hold the txt file (tag label) <br/>
 + Training: This is a file for writing python code, code for training.
 </p>
-<img src="https://github.com/gshoanganh/mask-ai/photos/directories01.png?raw=true"> 
+<img src="https://github.com/gshoanganh/mask-ai/blob/main/photos/directories01.png?raw=true"> 
 
 ## Prepare images and Create Labels
 

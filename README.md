@@ -81,7 +81,7 @@ source yolo/bin/activate # Linux/Mac
 <pre>
 python -m pip install --upgrade pip
 pip install ipykernel
-python -m ipykernel install --user --name=tfod
+python -m ipykernel install --user --name=yolo
 </pre>
 
 > 💡 Bug: You can use <code>pip2</code> </note>

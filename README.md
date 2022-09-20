@@ -1,6 +1,6 @@
 # Mask object detection AI using the latest YOLOv5 model
 <p>👋 Hello! This set of Notebooks was written to serve as a template for future AI projects. </p>
-<p>Today, there are many models to develop AI with object detection projects. But Yolov5 is becoming the most powerful and fast. After many tries with different models, I feel that you should use Yolov5 to develop your Object Detection project.</p> 
+<p>Nowadays, you can find numerous models which could be used to develop AI with object detection projects. However, Yolov5  is becoming the fastest and most powerful. After many tries with different ones, I can assure you that Yolov5 will be the best choice for you to develop your Object Detection project.</p> 
 📚 This guide explains how to train your own custom dataset with YOLOv5 🚀<br/>
 🍀 Author: <b>Gs Hoang Anh</b> (<a href="https://www.youtube.com/c/GsHoangAnh">Youtube channel</a>.)
 <br/>

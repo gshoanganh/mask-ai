@@ -67,8 +67,8 @@ names: ['mask','notmask']  # class names
 <b>Step 1</b>. Activate env
 <p>From <code>smoke-ai</code> folder, open command:
 <pre>
-python -m venv yolo #method1
-python3 -m venv yolo #method2
+python -m venv yolo # method1
+python3 -m venv yolo # method2
 </pre> 
 <br/>  
 <b>Step 2.</b> Activate your virtual environment
@@ -84,7 +84,7 @@ pip install ipykernel
 python -m ipykernel install --user --name=yolo
 </pre>
 
-> 💡 Bug: You can use <code>pip2</code> </note>
+> 💡 Bug: You can use <code>pip2</code> and <code>python3</code> </note>
 <br/>
 <b>Step 4.</b> install all requirements
 <pre>
@@ -95,7 +95,7 @@ install requirements.txt
 <b>Step 5.</b> Run notebook
 <pre>
 cd ..
-python3 notebook
+python3 -m notebook
 </pre>
 
 > 💡 Warning: In this step, you will perform some checks to see if the default yolov5 is running correctly.

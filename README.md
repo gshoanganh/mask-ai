@@ -4,20 +4,21 @@
 📚 This guide explains how to train your own custom dataset with YOLOv5 🚀<br/>
 🍀 Author: <b>Gs Hoang Anh</b> (<a href="https://www.youtube.com/c/GsHoangAnh">Youtube channel</a>.)
 <br/>
+
 ## Stochastic Loss Function
 
-Figure 1: A conceptual visualization for our stochastic loss function. Given a main network f(·; w) and a decision network
+A conceptual visualization for our stochastic loss function. Given a main network f(·; w) and a decision network
 h(·; v), a group of loss functions are predefined. During the forward propagation, for the input x and output y, the main
 network generates the estimated output p = f(x; w), and the loss functions can be selected by the decision network with
 Gumbel Softmax. Then, the loss in SLF is obtained by combing these selected loss functions. During the backward propagation,
 the standard back-propagation is in a position to calculate the gradients of the network weights w and the loss parameters v.
-<img width="630" src="https://github.com/gshoanganh/mask-ai/blob/main/photos/Figure1.jpg?raw=true"> 
+<img width="630" src="[https://github.com/gshoanganh/mask-ai/blob/main/photos/Figure1.jpg?raw=true](https://github.com/gshoanganh/mask-ai/blob/main/photos/Figure1.JPG?raw=true)"> 
 
 For simplicity, we denote stochastic loss function with n ordered loss functions as L = {1, ··· , n}, including mean squared error, categorical hinge, cross-entropy, and so on. With these loss functions, the stochastic loss function can be formulated as
 <img width="330" src="https://github.com/gshoanganh/mask-ai/blob/main/photos/figure2.jpg?raw=true"> 
 <br/>
 <br/>
-<img width="630" src="https://github.com/gshoanganh/mask-ai/blob/main/photos/detect-page.jpg?raw=true"> 
+<img width="630" src="[![Uploading image.png…]()](https://github.com/gshoanganh/mask-ai/blob/main/photos/figure2.JPG?raw=true)"> 
 <br/>
 
 ## Before You Start

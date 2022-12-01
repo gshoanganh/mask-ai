@@ -12,7 +12,7 @@ h(·; v), a group of loss functions are predefined. During the forward propagati
 network generates the estimated output p = f(x; w), and the loss functions can be selected by the decision network with
 Gumbel Softmax. Then, the loss in SLF is obtained by combing these selected loss functions. During the backward propagation,
 the standard back-propagation is in a position to calculate the gradients of the network weights w and the loss parameters v.
-<img width="630" src="[https://github.com/gshoanganh/mask-ai/blob/main/photos/Figure1.jpg?raw=true](https://github.com/gshoanganh/mask-ai/blob/main/photos/Figure1.JPG?raw=true)"> 
+<img width="630" src="https://raw.githubusercontent.com/gshoanganh/mask-ai/main/photos/Figure1.JPG"> 
 
 For simplicity, we denote stochastic loss function with n ordered loss functions as L = {1, ··· , n}, including mean squared error, categorical hinge, cross-entropy, and so on. With these loss functions, the stochastic loss function can be formulated as
 <img width="330" src="https://github.com/gshoanganh/mask-ai/blob/main/photos/figure2.jpg?raw=true"> 

@@ -15,10 +15,10 @@ the standard back-propagation is in a position to calculate the gradients of the
 <img width="630" src="https://raw.githubusercontent.com/gshoanganh/mask-ai/main/photos/Figure1.JPG"> 
 
 For simplicity, we denote stochastic loss function with n ordered loss functions as L = {1, ··· , n}, including mean squared error, categorical hinge, cross-entropy, and so on. With these loss functions, the stochastic loss function can be formulated as
-<img width="330" src="https://github.com/gshoanganh/mask-ai/blob/main/photos/figure2.jpg?raw=true"> 
+<img width="330" src="https://raw.githubusercontent.com/gshoanganh/mask-ai/main/photos/figure2.JPG"> 
 <br/>
 <br/>
-<img width="630" src="[![Uploading image.png…]()](https://github.com/gshoanganh/mask-ai/blob/main/photos/figure2.JPG?raw=true)"> 
+<img width="630" src="https://raw.githubusercontent.com/gshoanganh/mask-ai/main/photos/detect-page.jpg"> 
 <br/>
 
 ## Before You Start
